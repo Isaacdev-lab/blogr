@@ -1,0 +1,97 @@
+
+
+ :root{
+      /* Primary colors */
+     --LightRed-text: hsl(356, 100%, 66%);
+     --VeryLightRed-HoverBackground: hsl(355, 100%, 74%);
+     --VeryDarkBlue-headings: hsl(208, 49%, 24%);
+
+     /* Neutral */
+
+     --White-text: hsl(0, 0%, 100%);
+     --GrayishBlueFooter-text: hsl(240, 2%, 79%);
+     --VeryDarkGrayishBlue-BodyCopy: hsl(207, 13%, 34%);
+     --VeryDarkBlackBlue-FooterBackground: hsl(240, 10%, 16%);
+
+        /* ### Gradient */
+
+     /* Background gradient - Intro/CTA mobile nav: */
+
+     --VeryLight-Red: hsl(13, 100%, 72%);
+     --Light-Red: hsl(353, 100%, 62%);
+
+
+     /* Background gradient - body: */
+
+     --VeryDarkGray-blue: hsl(237, 17%, 21%);
+     --VeryDarkDesaturated-Blue: hsl(237, 23%, 32%);
+ }
+
+ body{
+     background: rgba(255, 255, 255, 0.884);
+ }
+
+ .bodytext{
+     color: var(--VeryDarkGrayishBlue-BodyCopy);
+ }
+
+
+ .navcolor{
+     background: var(--VeryLight-Red);
+     background-image: url(../img/bg-pattern-intro.svg);
+     background-repeat: no-repeat;
+     background-position: left;
+     background-size: cover;
+     object-fit: contain;
+ }
+
+ .backgroundcolor-header{
+     background: var(--VeryLight-Red);
+     border-radius: 0px 0px 50px 50px;
+     background-image: url(../img/bg-pattern-intro.svg);
+     background-repeat: no-repeat;
+     background-position: left;
+     background-size: cover;
+     object-fit: contain;
+ }
+
+ .backgroundcolor-footer{
+    background: var(--VeryDarkGray-blue);
+    border-radius: 50px 50px 0px 0px;
+ }
+
+.white{
+    background: var(--White-text);
+    color: var(--Light-Red);
+    outline: none;
+    border: var(--Light-Red);
+}
+
+.white:hover{
+    background: var(--Light-Red);
+    color: var(--White-text);
+    border: 1px solid var(--White-text);
+}
+
+.outline-white{
+    background: var(--Light-Red);
+    color: var(--White-text);
+    border: 1px solid var(--White-text);
+    outline: none;
+}
+
+.outline-white:hover{
+    background: #fff;
+    color: var(--Light-Red);
+    border: 1px solid var(--White-text);
+}
+
+
+
+/* Customise container */
+.cc-container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
